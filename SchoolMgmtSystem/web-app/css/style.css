@@ -1,0 +1,138 @@
+
+#wrapper{
+    background-color:blue;
+    width: 960px;
+    margin: 0 auto;
+}
+#container{
+    margin: 0 auto;
+    width:960px;
+    background-color:red;
+}
+#top-header{
+    background-color: yellow;
+    height: 20px;}
+#top-header li {
+    float:right;
+    height:20px;
+    line-height:20px;
+    border-right: 1px solid;
+
+}
+#top-header li a {
+    display:block;
+    padding:0 10px;
+    color:#000;
+
+    text-decoration:none;
+}
+#top-header li a:hover {
+    text-decoration:underline;
+}
+.logo{
+    height:100px;
+    width: 150px;
+    margin: 10px;
+    float: left;
+}
+.moto{
+    width: 200px;
+    float: right;
+    font-size: 1.5em;
+    font-family: cursive;
+
+}
+#header{
+    /*background-image: url(csit-logo.jpg);*/
+    background-repeat: no-repeat;
+    background-position: left top;
+    padding-top:68px;
+    margin-bottom:50px;
+    height:50px;
+}
+.menu {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    height:30px;
+    background-color:#600;
+    font-family:Arial;
+    font-size:0.9em;
+}
+.menu li {
+    float:left;
+    height:30px;
+    line-height:30px;
+    padding-left: 10px;
+}
+.menu li a {
+    display:block;
+    padding:0 20px;
+    color:#FFF;
+    text-decoration:none;
+}
+.menu li a:hover {
+    background-color:#900;
+    text-decoration:none;
+}
+.banner{
+    width: 100%;
+    height: 250px;
+    background-color: green;
+    margin-top: 5px;
+}
+#boxcontainer{
+    width: 100%;
+    background-color: pink;
+}
+.boxes{
+    width: 30%;
+    height: 200px;
+    background-color: orange;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 1%;
+    float: left;
+    display: inline;
+    overflow: hidden;
+    text-align: justify;
+}
+
+.bigboxes{
+    margin: 1%;
+    width: 48%;
+    float: left;
+    background-color: grey;
+
+}
+
+.clear{clear: both;}
+.footer-container{
+    width: 100%;
+    background-color: white;
+}
+.span3{
+    width: 20%;
+    border-right:1px solid;
+    display: inline;
+    float: left;
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    font-family:Arial;
+    font-size:0.9em;
+}
+.span3 li {
+    list-style-type: none;
+
+    padding-left: 10px;
+}
+
+.footer{
+    clear: both;
+    text-align: center;
+    height: 30px;
+    background-color: #ddd;
+    width: 100%;
+    margin: 5px;
+}
